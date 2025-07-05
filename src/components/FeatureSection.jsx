@@ -10,9 +10,9 @@ import bps2 from "../assets/intership/bps2.jpg";
 import ge1 from "../assets/intership/ge1.png";
 import ge2 from "../assets/intership/ge2.png";
 import ge3 from "../assets/intership/ge3.png";
-import pen from "../assets/intership/pendidikan.jpg";
-import pen1 from "../assets/intership/pendidikan1.jpg";
-import pen2 from "../assets/intership/pendidikan2.jpg";
+import pen from "../assets/intership/kom1.jpeg";
+import pen1 from "../assets/intership/kom2.jpeg";
+import pen2 from "../assets/intership/kom3.jpeg";
 import doc1 from "../assets/intership/doc1.png";
 import doc2 from "../assets/intership/doc2.jpg";
 import IT1 from "../assets/intership/IT1.jpg"; // <-- ubah ke .jpg
@@ -30,10 +30,10 @@ import hmif from "../assets/hmif.png";
 const internships = [
   {
     company: "Himpunan Mahasiswa Informatika (HMIF) Siliwangi University",
-    position: "Head of Education Division",
-    period: "Dec 2022 - Nov 2023",
+    position: "Head of Community Division",
+    period: "Feb 2022 - Nov 2023",
     description:
-      "Facilitated student development in skills and insights, collaborated with educational institutions, and supported competitions, delegations, and scientific discussions in Informatics.",
+      "-	The head of the community division oversees 7 communities focused on information technology at Siliwangi University. They assist in managing these communities, helping them prepare for competitions, and also handle community administration.",
     documentation: [pen, pen1, pen2],
     logo: hmif,
   },

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import julpian from "../assets/julpian.jpg";
+import fedro from "../assets/Fedro.jpg";
 
 // Import Icon
 // Bahasa Pemrograman dan IDE
@@ -81,18 +81,18 @@ const ProfileSection = () => (
     <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
       Welcome to{" "}
       <span className="bg-gradient-to-r from-red-600 to-red-800 text-transparent bg-clip-text">
-        Lutfi Julpian's Portfolio
+        Fedro Rizkyana Padila's Portfolio
       </span>
     </h1>
     <p className="text-neutral-400 text-base sm:text-lg max-w-xl mx-auto lg:mx-0">
-      I am Lutfi Julpian, a professional passionate about processing data to create effective and informative visualizations. With expertise in Data Science, Data Analytics, and Data Engineering, I help uncover insights for smarter decisions.
+      I am Fedro Rizkyana Padila, a professional passionate about processing data to create effective and informative visualizations. With expertise in Data Science, Data Analytics, and Data Engineering, I help uncover insights for smarter decisions.
     </p>
     <p className="text-neutral-400 text-base sm:text-lg">
       My expertise is in <TypingAnimation />
     </p>
     <div className="mt-6">
       <a
-        href="https://drive.google.com/file/d/1FY4QXsFr8bsonVyiAIIqZdH4DVexnds2/view?usp=sharing"
+        href="https://drive.google.com/file/d/1d9-6aiEDYltyqiPQXaKbTm17luSfBZSn/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block px-6 py-3 bg-gradient-to-r from-red-600 to-red-800 text-white rounded-full font-medium hover:bg-gradient-to-r hover:from-red-700 hover:to-red-900 transition-all duration-300"
@@ -109,7 +109,7 @@ const ProfileImage = () => (
   <div className="lg:w-1/2 flex justify-center">
     <div className="relative rounded-full overflow-hidden shadow-lg hover:scale-105 transition-transform duration-500 border-4 border-red-600/20">
       <img
-        src={julpian}
+        src={fedro}
         alt="Lutfi Julpian"
         className="w-64 h-64 sm:w-80 sm:h-80 object-cover"
         loading="lazy"
@@ -134,18 +134,17 @@ const SkillsSection = () => {
     { icon: tableauIcon, name: "Tableau" },
     { icon: streamlitIcon, name: "Streamlit" },
     { icon: androidIcon, name: "Android Studio" },
-    { icon: flask, name: "Flask" },
+
     // Machine Learning
     { icon: scikitlearnIcon, name: "Scikit-learn" },
     { icon: tensorflowIcon, name: "TensorFlow" },
-    { icon: yoloIcon, name: "YOLO" },
+
     // Desain dan Pengembangan Web
     { icon: phpIcon, name: "PHP" },
     { icon: jsIcon, name: "JavaScript" },
     { icon: htmlIcon, name: "HTML" },
     { icon: cssIcon, name: "CSS" },
     { icon: structureIcon, name: "SQL" },
-    { icon: figmaIcon, name: "Figma" },
     { icon: canvaIcon, name: "Canva" },
     { icon: tailwindIcon, name: "Tailwind CSS" },
     // Version Control
