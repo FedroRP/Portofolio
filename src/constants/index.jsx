@@ -11,13 +11,12 @@ import kn from "../assets/sertifikat/KNIME.png";
 import st from "../assets/sertifikat/TSA.png";
 import ts from "../assets/sertifikat/Stupen.png";
 
-import fun from "../assets/project/funtastic.png";
-import ico from "../assets/project/iconicit.png";
+import fun from "../assets/project/Dashboard 2.png";
+import ico from "../assets/project/Storytelling.png";
 import jav from "../assets/project/java.png";
-import app from "../assets/project/Apple.png";
-import fuelapp from "../assets/project/fuelapp.png";
-import kas from "../assets/project/kas.png";
-import heart from "../assets/project/hear.png";
+import app from "../assets/project/Dashboard 1.png";
+import fuelapp from "../assets/project/Dashboard 3.png";
+import kas from "../assets/project/result.png";
 
 export const navItems = [
   { label: "Home", href: "#Home" },
@@ -129,17 +128,17 @@ export const checklistItems = [
 
 export const projects = [
   {
-    title: "Water Quality Prediction",
+    title: "Data Voyagers",
     description:
-      "Water quality prediction with AI, MSIB batch 6 project with GreatEdu.",
-    link: "https://funtasticfour-water-prediction-app.streamlit.app/",
+      "Pricing prediction using ARIMA, MSIB batch 6 project with Startup Campus.",
+    link: "https://public.tableau.com/app/profile/tim.13b/viz/DataVoyagers/Dashboard2",
     image: fun
   },
   {
-    title: "Brilium",
+    title: "Chicken population distribution map",
     description:
-      "ML-based learning recommendation system for the ICONIC IT competition.",
-    link: "https://github.com/Julpian/IconicIT",
+      "Presenting data on the chicken population in Tasikmalaya City.",
+    link: "https://public.tableau.com/app/profile/tim.13b/viz/PersebaranPopulasiAyamDiKotaTasikmalaya/Storytelling",
     image: ico
   },
   {
@@ -150,32 +149,25 @@ export const projects = [
     image: jav
   },
   {
-    title: "AppleSense",
+    title: "Graph showing poverty levels in Tasikmalaya City",
     description:
-      "Automatic detection and counting of apples with YOLO on the farm",
-    link: "https://github.com/Julpian/AppleSense",
+      "Presenting data on poverty levels in Tasikmalaya City",
+    link: "https://public.tableau.com/app/profile/tim.13b/viz/TIngkatKemiskinanKotaTasikmalaya/Dashboard1",
     image: app
   },
   {
-    title: "Fuel Entry App",
+    title: "Tasikmalaya City Human Development Index (HDI) Visualization",
     description:
-      "Web application for recording fuel consumption of truck units and heavy equipment at PT. Kalimantan Prima Persada",
-    link: "https://fuel-app-pi.vercel.app/login",
+      "Presenting Tasikmalaya City's Human Development Index (HDI)",
+    link: "https://public.tableau.com/app/profile/tim.13b/viz/IndeksPembangunanManusiaKotaTasikmalaya/Dashboard1",
     image: fuelapp
   },
   {
-    title: "FinTrack",
+    title: "Marketing Strategy Optimization",
     description:
-      "This application helps you track every income and expense, organize your monthly budget, and monitor your savings and investments all in one intuitive and easy-to-use dashboard.",
-    link: "https://fintrack-kappa-ten.vercel.app/",
+      "Visualizing product prediction and recommendation with machine learning.",
+    link: "https://public.tableau.com/app/profile/tim.13b/viz/VisualisasiHasil_17463298771380/Dashboard1",
     image: kas
-  },
-  {
-    title: "Prediction of Heart Disease",
-    description:
-      "🫀 Early Prediction, Save Lives — My thesis project for AI-based heart disease risk detection.",
-    link: "https://fintrack-kappa-ten.vercel.app/",
-    image: heart
   },
 ];
 

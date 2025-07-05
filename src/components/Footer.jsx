@@ -5,27 +5,27 @@ const SocialLinks = () => {
   const socials = [
     {
       name: "GitHub",
-      href: "https://github.com/Julpian",
+      href: "https://github.com/FedroRP",
       icon: <FaGithub className="w-5 h-5" />,
     },
     {
       name: "LinkedIn",
-      href: "https://www.linkedin.com/in/lutfi-julpian-ba764a22a/",
+      href: "https://www.linkedin.com/in/fedro-rizkyana-padila/",
       icon: <FaLinkedin className="w-5 h-5" />,
     },
     {
       name: "Instagram",
-      href: "https://www.instagram.com/ljulpian/?hl=en",
+      href: "https://www.instagram.com/f_padila?igsh=cjFlODNxcGJ1djl1",
       icon: <FaInstagram className="w-5 h-5" />,
     },
     {
       name: "Facebook",
-      href: "https://www.facebook.com/lutfijulpian",
+      href: "https://www.facebook.com/Pedro Rpadila",
       icon: <FaFacebook className="w-5 h-5" />,
     },
     {
       name: "Email",
-      href: "lutfijulpian@gmail.com",
+      href: "pedropadila@gmail.com",
       icon: <FaEnvelope className="w-5 h-5" />,
     },
   ];
@@ -39,7 +39,7 @@ const SocialLinks = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-neutral-300 hover:text-red-600 transition-colors duration-300"
-          aria-label={`Kunjungi profil ${social.name} Lutfi Julpian`}
+          aria-label={`Kunjungi profil ${social.name} Fedro Rizkyana Padila`}
         >
           {social.icon}
           <span className="text-sm sm:text-base">{social.name}</span>
@@ -52,7 +52,7 @@ const SocialLinks = () => {
 // Komponen Copyright
 const Copyright = () => (
   <p className="text-neutral-400 text-xs sm:text-sm">
-    © {new Date().getFullYear()} Lutfi Julpian. All rights reserved.
+    © {new Date().getFullYear()} Fedro Rizkyana Padila. All rights reserved.
   </p>
 );
 

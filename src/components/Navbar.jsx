@@ -76,7 +76,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 sm:px-6 flex justify-between items-center">
         <div className="flex items-center">
           <span className="text-lg sm:text-xl font-bold text-white tracking-tight">
-            Portofolio Lutfi
+            Portofolio Fedro
           </span>
         </div>
         <DesktopNav />

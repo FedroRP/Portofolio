@@ -110,7 +110,7 @@ const ProfileImage = () => (
     <div className="relative rounded-full overflow-hidden shadow-lg hover:scale-105 transition-transform duration-500 border-4 border-red-600/20">
       <img
         src={fedro}
-        alt="Lutfi Julpian"
+        alt="Fedro Rizkyana Padila"
         className="w-64 h-64 sm:w-80 sm:h-80 object-cover"
         loading="lazy"
       />

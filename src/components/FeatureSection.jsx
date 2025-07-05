@@ -1,30 +1,27 @@
 import React, { useState } from "react";
-import bri from "../assets/intership/bri.jpg";
-import bri1 from "../assets/intership/bri1.jpg";
-import kkn1 from "../assets/intership/kkn1.jpg";
-import kkn2 from "../assets/intership/kkn2.jpg";
-import kkn3 from "../assets/intership/kkn3.jpg";
+import kkn1 from "../assets/intership/kkn1.jpeg";
+import kkn2 from "../assets/intership/kkn2.jpeg";
+import kkn3 from "../assets/intership/kkn3.jpeg";
 import bps from "../assets/intership/bps.jpg";
-import bps1 from "../assets/intership/bps1.jpg";
-import bps2 from "../assets/intership/bps2.jpg";
-import ge1 from "../assets/intership/ge1.png";
-import ge2 from "../assets/intership/ge2.png";
+import bps1 from "../assets/intership/bps1.jpeg";
+import bps2 from "../assets/intership/bps2.jpeg";
+import ge1 from "../assets/intership/ge1.jpeg";
+import ge2 from "../assets/intership/ge2.jpeg";
 import ge3 from "../assets/intership/ge3.png";
 import pen from "../assets/intership/kom1.jpeg";
 import pen1 from "../assets/intership/kom2.jpeg";
 import pen2 from "../assets/intership/kom3.jpeg";
-import doc1 from "../assets/intership/doc1.png";
-import doc2 from "../assets/intership/doc2.jpg";
-import IT1 from "../assets/intership/IT1.jpg"; // <-- ubah ke .jpg
-import IT2 from "../assets/intership/IT2.jpg"; // <-- ubah ke .jpg
-import IT3 from "../assets/intership/IT3.jpg"; // <-- ubah ke .jpg
+import doc1 from "../assets/intership/doc1.jpeg";
+import doc2 from "../assets/intership/doc2.jpeg";
+import IT1 from "../assets/intership/IT1.jpeg"; // <-- ubah ke .jpg
+import IT2 from "../assets/intership/IT2.jpeg"; // <-- ubah ke .jpg
+import IT3 from "../assets/intership/IT3.jpeg"; // <-- ubah ke .jpg
 
 
 import IT4 from "../assets/itbootcamp.jpg"; // <-- ubah ke .jpg
-import briLogo from "../assets/bri.png";
 import kknLogo from "../assets/kkn.png";
-import greatEduLogo from "../assets/greatedu.png";
-import bpsLogo from "../assets/bps.jpeg";
+import greatEduLogo from "../assets/startup.png";
+import bpsLogo from "../assets/diskominfo.png";
 import hmif from "../assets/hmif.png";
 
 const internships = [
@@ -33,52 +30,43 @@ const internships = [
     position: "Head of Community Division",
     period: "Feb 2022 - Nov 2023",
     description:
-      "-	The head of the community division oversees 7 communities focused on information technology at Siliwangi University. They assist in managing these communities, helping them prepare for competitions, and also handle community administration.",
+      "The head of the community division at Siliwangi University oversees 7 IT communities.",
     documentation: [pen, pen1, pen2],
     logo: hmif,
   },
   {
-    company: "BRI",
-    position: "Document Control Intern",
-    period: "Jun 2023 - Aug 2023",
-    description:
-      "Managed loan-related documents, ensuring proper storage and administration of proofs and ongoing loans.",
-    documentation: [bri, bri1],
-    logo: briLogo,
-  },
-  {
     company: "Himpunan Mahasiswa Informatika (HMIF) Siliwangi University",
-    position: "Head of Department of Education",
-    period: "Dec 2023 - Nov 2024",
+    position: "General Secretary",
+    period: "Feb 2024 - Nov 2024",
     description:
-      "Overseeing three divisions, leading national events, ensuring impactful and student-focused programs.",
+      "General Secretary Manages all HMIF administration.",
     documentation: [doc1, doc2],
     logo: hmif,
   },
   {
-    company: "Kuliah Kerja Nyata (KKN) Margacinta Village",
-    position: "Deputy Secretary",
+    company: "Kuliah Kerja Nyata (KKN) Ciampanan Village",
+    position: "Team Leader",
     period: "Dec 2023 - Feb 2024",
     description:
-      "Managed invitation letters to village heads and key figures, and compiled daily activity reports.",
+      "Led and managed a team of university students during a community service project.",
     documentation: [kkn1, kkn2, kkn3],
     logo: kknLogo,
   },
   {
-    company: "GreatEdu Global Mahardika",
+    company: "Startup Campus",
     position: "Data Science Bootcamp Participant",
     period: "Feb 2024 - Jun 2024",
     description:
-      "Completed a data science bootcamp focusing on predictive modeling and data visualization using Python.",
+      "Completed data science and artificial intelligence certification.",
     documentation: [ge1, ge2, ge3],
     logo: greatEduLogo,
   },
   {
-    company: "Badan Pusat Statistik (BPS)",
-    position: "Survey Data Specialist Intern",
-    period: "Aug 2024 - Sep 2024",
+    company: "Diskominfo Kota Tasikmalaya",
+    position: "Data Analyst",
+    period: "Jul 2024 - Aug 2024",
     description:
-      "Created survey forms, processed Excel data for clarity, and performed rice price predictions.",
+      "collect material to create data and analyze it, then create a visualization.",
     documentation: [bps, bps1, bps2],
     logo: bpsLogo,
   },
