@@ -9,7 +9,7 @@ import ds from "../assets/sertifikat/fit.jpg";
 import ic from "../assets/sertifikat/iconic.png";
 import kn from "../assets/sertifikat/ict.jpg";
 import st from "../assets/sertifikat/kominfo.jpg";
-import ts from "../assets/sertifikat/Stupen.jpeg";
+import ts from "../assets/sertifikat/stupen.jpeg";
 
 import fun from "../assets/project/Dashboard 2.png";
 import ico from "../assets/project/Storytelling.png";
