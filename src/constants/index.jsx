@@ -5,11 +5,11 @@ import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
-import ds from "../assets/sertifikat/datascince.png";
+import ds from "../assets/sertifikat/fit.jpg";
 import ic from "../assets/sertifikat/iconic.png";
-import kn from "../assets/sertifikat/KNIME.png";
-import st from "../assets/sertifikat/TSA.png";
-import ts from "../assets/sertifikat/Stupen.png";
+import kn from "../assets/sertifikat/ict.jpg";
+import st from "../assets/sertifikat/kominfo.jpg";
+import ts from "../assets/sertifikat/Stupen.jpeg";
 
 import fun from "../assets/project/Dashboard 2.png";
 import ico from "../assets/project/Storytelling.png";
@@ -28,38 +28,38 @@ export const navItems = [
 export const certifications = [
   {
     image: ds,
-    title: "Associate Data Science",
-    provider: "BNSP",
-    description: "BNSP Data Science certification: analysis, coding, and practical algorithmic solutions.",
-    link: "https://drive.google.com/file/d/1kxhIQ6BnoxCbqLfLnC_Rf4QiKax7H9In/view?usp=drive_link",
+    title: "Fit Competition 2024",
+    provider: "Universitas Kristen Satya Wacana",
+    description: "Idea to Action: Creating Sustainable Solution For Smart City.",
+    link: "https://drive.google.com/file/d/1HZnH0APILRkfkwG7qOaDJicUGKi5zEjt/view?usp=sharing",
   },
   {
     image: ts,
-    title: "Sertifikat Studi Independen Bersertifikat", 
+    title: "Studi Independen", 
     provider: "MSIB Angkatan 6",
-    description: "Completed Batch 6 Independent Study, GreatEdu Greenceleration Data Science Bootcamp.",
-    link: "https://drive.google.com/file/d/1WmjxDgNcJ80lgYfKGyNZvawUm999NUQu/view?usp=drive_link",
+    description: "Completed Batch 6 Independent Study, Data Science & Artificial Intelligence.",
+    link: "https://drive.google.com/file/d/1uaCF14Af4xpiJRwT7uH9ICe3nT3TgOh8/view?usp=sharing",
   },
   {
     image: kn,
-    title: "KNIME Advanced Analytics",
-    provider: "KNIME Academy",
-    description: "Learning in-depth data analytics using KNIME software in a practical way.",
-    link: "https://drive.google.com/file/d/1NLMBLN6YiPwxB5plcRscDZ56uqVg67PE/view?usp=drive_link",
+    title: "Sertifikat ICT Project Manager",
+    provider: "BNSP",
+    description: "Completed ICT Project Management certification.",
+    link: "https://drive.google.com/file/d/1HXlqv0x01wHwCDlNDC6Y5z0chty6L2oR/view?usp=sharing",
   },
   {
     image: ic,
     title: "ICONIC AI Certification",
     provider: "Universitas Siliwangi",
     description: "This certificate was obtained from the Data Science competition, testing analytical skills.",
-    link: "https://drive.google.com/file/d/1vKU8fuRs8419-wuYF1-GxjkjZirRb0mV/view?usp=drive_link",
+    link: "https://drive.google.com/file/d/1Y4OQG3pIe2AjbjDSCAUpCp-mYlDXcSqr/view?usp=sharing",
   },
   {
     image: st,
-    title: "Data Science and AI Solutions for Real-World Issues",
-    provider: "Digital Talent Scholarship",
-    description: "Pelatihan Data Science yang diselenggarakan oleh Kementerian Komunikasi dan Informatika, mencakup pemodelan, analisis, dan visualisasi data untuk menyelesaikan isu-isu dunia nyata.",
-    link: "https://drive.google.com/file/d/15pLqT0kf7VFHC_-S78N_1YpCBZndzxYp/view?usp=drive_link",
+    title: "Setifikat Intern",
+    provider: "DISKOMINFO Tasikmalaya City",
+    description: "Completed internship at DISKOMINFO Tasikmalaya City as a Data Analyst.",
+    link: "https://drive.google.com/file/d/1hkPLXXNhYF2MCRU2XlEJ9AmBGWukFW85/view?usp=sharing",
   },
 
 ];
