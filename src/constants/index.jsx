@@ -44,7 +44,7 @@ export const certifications = [
     image: kn,
     title: "Sertifikat ICT Project Manager",
     provider: "BNSP",
-    description: "Completed ICT Project Management certification.",
+    description: "Completed ICT Projek Manager certification.",
     link: "https://drive.google.com/file/d/1HXlqv0x01wHwCDlNDC6Y5z0chty6L2oR/view?usp=sharing",
   },
   {
