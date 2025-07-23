@@ -10,6 +10,8 @@ import ic from "../assets/sertifikat/iconic.png";
 import kn from "../assets/sertifikat/ict.jpg";
 import st from "../assets/sertifikat/kominfo.jpg";
 import ts from "../assets/sertifikat/stupen.jpeg";
+import hm from "../assets/sertifikat/hmif.jpeg";
+import gm from "../assets/sertifikat/gema.jpeg";
 
 import fun from "../assets/project/Dashboard 2.png";
 import ico from "../assets/project/Storytelling.png";
@@ -17,6 +19,8 @@ import jav from "../assets/project/java.png";
 import app from "../assets/project/Dashboard 1.png";
 import fuelapp from "../assets/project/Dashboard 3.png";
 import kas from "../assets/project/result.png";
+import dd from "../assets/project/dd.png";
+import zkt from "../assets/project/zakat.png";
 
 export const navItems = [
   { label: "Home", href: "#Home" },
@@ -60,6 +64,20 @@ export const certifications = [
     provider: "DISKOMINFO Tasikmalaya City",
     description: "Completed internship at DISKOMINFO Tasikmalaya City as a Data Analyst.",
     link: "https://drive.google.com/file/d/1hkPLXXNhYF2MCRU2XlEJ9AmBGWukFW85/view?usp=sharing",
+  },
+  {
+    image: hm,
+    title: "Sertifikat Ketua Divisi Komunitas",
+    provider: "HMIF Universitas Siliwangi",
+    description: "completed the duties as Head of the Community Division of HMIF.",
+    link: "https://drive.google.com/file/d/1n_6JDjAtq9hj8OHd7Z5jRkabiRTGAUHh/view?usp=sharing",
+  },
+  {
+    image: gm,
+    title: "Sertifikat Pemateri MS.Word",
+    provider: "PKBM GEMA",
+    description: "Award as a speaker in the MS Word training session.",
+    link: "https://drive.google.com/file/d/1G1EaOS37L7SLTtGf9aT0WZ35PNoSiwRg/view?usp=sharing",
   },
 
 ];
@@ -168,6 +186,20 @@ export const projects = [
       "Visualizing product prediction and recommendation with machine learning.",
     link: "https://public.tableau.com/app/profile/tim.13b/viz/VisualisasiHasil_17463298771380/Dashboard1",
     image: kas
+  },
+  {
+    title: "Website Penjualan Makanan",
+    description:
+      "This website contains information about food sales for customers.",
+    link: "https://drive.google.com/file/d/1I3I_gSR_6Plzocyx4ju79L1ZLKlbe_K3/view?usp=sharing",
+    image: dd
+  },
+  {
+    title: "Website E-Zakat",
+    description:
+      "Online-based Zakat Fitrah Management Website.",
+    link: "https://drive.google.com/file/d/1bhMc1WedNGFlZ2mxUogDXIitPLG9eGNP/view?usp=sharing",
+    image: zkt
   },
 ];
 

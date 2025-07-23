@@ -27,8 +27,9 @@ import htmlIcon from "../assets/icon/html.png";
 import structureIcon from "../assets/icon/structure.png";
 import cssIcon from "../assets/icon/css-3.png";
 import androidIcon from "../assets/icon/AndroidStudio.png";
+import wordpressIcon from "../assets/icon/Wordpress.png"
+
 // Desain Grafis
-import figmaIcon from "../assets/icon/figma.png";
 import canvaIcon from "../assets/icon/canva.png";
 import tailwindIcon from "../assets/icon/tailwind.png";
 // Version Control
@@ -147,6 +148,7 @@ const SkillsSection = () => {
     { icon: structureIcon, name: "SQL" },
     { icon: canvaIcon, name: "Canva" },
     { icon: tailwindIcon, name: "Tailwind CSS" },
+    { icon: wordpressIcon, name: "Wordpress" },
     // Version Control
     { icon: gitIcon, name: "Git" },
   ];
