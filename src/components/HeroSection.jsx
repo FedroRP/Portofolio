@@ -95,7 +95,7 @@ const ProfileSection = () => (
     </p>
     <div className="mt-6">
       <a
-        href="https://drive.google.com/file/d/1g61r_qTX2p6G5TnnyBn-etQx_damg5Om/view?usp=sharing"
+        href="https://drive.google.com/file/d/1SyXw1RQRjRvWf0-rFkUQpKGteMmGuqWQ/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block px-6 py-3 bg-gradient-to-r from-red-600 to-red-800 text-white rounded-full font-medium hover:bg-gradient-to-r hover:from-red-700 hover:to-red-900 transition-all duration-300"
