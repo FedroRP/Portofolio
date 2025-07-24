@@ -21,6 +21,8 @@ import fuelapp from "../assets/project/Dashboard 3.png";
 import kas from "../assets/project/result.png";
 import dd from "../assets/project/dd.png";
 import zkt from "../assets/project/zakat.png";
+import stg from "../assets/project/stegano.jpeg";
+import hrt from "../assets/project/heart.png";
 
 export const navItems = [
   { label: "Home", href: "#Home" },
@@ -200,6 +202,20 @@ export const projects = [
       "Online-based Zakat Fitrah Management Website.",
     link: "https://drive.google.com/file/d/1bhMc1WedNGFlZ2mxUogDXIitPLG9eGNP/view?usp=sharing",
     image: zkt
+  },
+  {
+    title: "Aplikasi Steganografi: Kombinasi DES dengan RPE",
+    description:
+      "This application has the function of embedding messages into images.",
+    link: "https://drive.google.com/file/d/1adu2BmaT3igOwNNMyLWMDQw2WXC4Ok86/view?usp=sharing",
+    image: stg
+  },
+  {
+    title: "Heart Disease Classification and Prediction ",
+    description:
+      "Helps in predicting and classifying heart disease symptoms.",
+    link: "https://klasifikasi-dan-prediksi-penyakit-jantung-c4y342xbbyqyrk8zwjtu.streamlit.app/",
+    image: hrt
   },
 ];
 

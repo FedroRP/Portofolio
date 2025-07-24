@@ -7,6 +7,9 @@ import fedro from "../assets/Fedro.jpg";
 import pythonIcon from "../assets/icon/python.png";
 import colabIcon from "../assets/icon/GoogleColab.png";
 import VScodeIcon from "../assets/icon/VScode.png";
+import NBIcon from "..//assets/icon/nb.png";
+import JvIcon from "..//assets/icon/java.png";
+
 // Analisisi dan Visualisasi Data
 import lookerIcon from "../assets/icon/GoogleLooker.png";
 import matplotIcon from "../assets/icon/Matplotlib.png";
@@ -34,7 +37,6 @@ import canvaIcon from "../assets/icon/canva.png";
 import tailwindIcon from "../assets/icon/tailwind.png";
 // Version Control
 import gitIcon from "../assets/icon/git.png";
-
 
 
 // Typing Animation Component
@@ -93,11 +95,11 @@ const ProfileSection = () => (
     </p>
     <div className="mt-6">
       <a
-        href="https://drive.google.com/file/d/1d9-6aiEDYltyqiPQXaKbTm17luSfBZSn/view?usp=sharing"
+        href="https://drive.google.com/file/d/1g61r_qTX2p6G5TnnyBn-etQx_damg5Om/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block px-6 py-3 bg-gradient-to-r from-red-600 to-red-800 text-white rounded-full font-medium hover:bg-gradient-to-r hover:from-red-700 hover:to-red-900 transition-all duration-300"
-        aria-label="Download Lutfi Julpian's CV"
+        aria-label="Download Fedro Rizkyana Padila's CV"
       >
         Download CV
       </a>
@@ -126,6 +128,8 @@ const SkillsSection = () => {
     { icon: pythonIcon, name: "Python" },
     { icon: VScodeIcon, name: "VS Code" },
     { icon: colabIcon, name: "Google Colab" },
+    { icon: NBIcon, name: "NetBeans" },
+    { icon: JvIcon, name: "Java" },
     // Analisisi dan Visualisasi Data
     { icon: numpyIcon, name: "NumPy" },
     { icon: pandasIcon, name: "Pandas" },
